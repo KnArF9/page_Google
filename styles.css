@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+body {
+	font-family:  arial,san-serif;
+
+}
+
+.logo  {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 200px;
+}
+
+.button  {
+
+	border-radius: 4px;
+	padding: 12px 28px;
+	display: block;
+	margin: auto;
+	font-family: Arial;
+
+
+
+
+	
+}
+
+.texte {
+	text-align: center;
+	display: inline-block;
+}
+
+.recherche {
+	margin-left: 520px;
+	margin-right: auto;
+	display: inline-block;
+}
+
+.nav  {
+	display: inline;
+	font-family: Arial;
+	text-decoration: none;
+	color: #404040;
+	font-size: 13px;
+	padding-top: 10px;
+	text-align: right;
+}
+
+
+#connexion {
+	display: inline-block;
+	background-color: #29A0F0;
+	border-radius: 3px;
+	text-align: center; 
+}
+
