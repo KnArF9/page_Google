@@ -73,10 +73,9 @@ line-height: 60px;
 }
 
 #placementB {
-	margin-left: 39%;
-	margin-right: auto;
+
 	margin-top: 35px;
-	display: inline-block;
+
 }
 
 
@@ -115,19 +114,71 @@ line-height: 60px;
 	padding: 12px 40px 12px 40px;
 }
 
-.footer {
-	font-family: Arial;
-	display: inline-block;
-	text-decoration: none;
-	position:absolute; bottom:0;
+footer {
+   position:absolute;
+   bottom:0;   			
+   border-top: 1px solid #ddd;
+   width:100%;			
+   background:#F0F0F0;   
+   font-size: 10p;
+   height: 25px;
+   padding-top: 15px;
+   color: #888888;
+   margin-bottom: 10px;
+}
+
+#canada {
+   border-top: 1px solid #ddd;
+   border-bottom: 1px solid #ddd;
+   position:absolute;
+   width:100%;
+   background:#F0F0F0;   
+   font-size: 10pt;
+   height: 25px;
+   color: #888888;
+
+   padding-top: 10px;
+   padding-bottom: 10px;
+   bottom:40px;
+}
+
+#conf {
+	float: right;
+	display: inline-block;	
+	margin-right: 20px;
+}	
+
+#condition {
+	float: right;
+	display: inline-block;	
+	margin-right: 20px;
 }
 
 #parametre {
 	float: right;
 	display: inline-block;
-
+	margin-right: 20px;
+	
 }
 
+
+#pub { 
+	float: left;
+	display: inline-block;	
+	margin-left: 0px;
+}	
+
+#enteprise { 
+	float: left;
+	display: inline-block;	
+	margin-left: 20px;
+}	
+
+#fonctionne { 
+	float: left;
+	display: inline-block;	
+	margin-left: 20px;
+}	
 
 
 
