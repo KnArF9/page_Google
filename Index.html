@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 	<head>
-
+		<meta charset="UTF-8">
 		<title>Google</title>
 		<link href="styles.css" rel="stylesheet" type="text/css">
 	</head>
@@ -9,7 +9,12 @@
 <body>
 <header>
 	<ul class="nav">
-		<li id="connexion"><button>Connexion</button></li>
+		<li id="connexion"><button id="boutonConnexion"><b>Connexion</b></button></li>
+		<li class ="apps">
+			<a href="">
+			<img src="image/app.png" alt="apps" style="width:20px;height:20px;">
+			</a>
+		</li>
 	    <li id="images"><a href="">Images</a></li>
 		<li id="gmail"><a href="">Gmail</a></li>
 		<li id="propos"><a href=""> A propos</a></li>
@@ -19,20 +24,32 @@
 </header>
 
 
-	<img src="image/logo.png" alt="Logo Google" class="logo" >
+	<img src="image/logo.png" alt="Logo Google" class="logo" style="width:272px;height:92px;">
 
 	<form>
-		<input type= "text" class="recherche" name="research">
+		<input type= "text" class="recherche">
 	</form>
 
 
+	<div id="placementB">
 	<button class="button">Recherche Google</button>
 	<button class="button">J'ai de la chance</button>
+	</div>
 
 	<p class= "texte">
 		Google disponible en : <a href=""> English</a>
 	</p>
 
+	<footer>
+	<ul class="footer">
+		<li id="pub"><a href="">Publicite</a></li>
+		<li id="enteprise"><a href="">Enteprise</a></li>
+		<li id="fonctionne"><a href="">Comment fonctionne la recherche Google ?</a></li>
+		<li id="conf"><a href="">Confidentialite</a></li>
+		<li id="condition"><a href="">Conditions d'utilisation</a></li>
+		<li id="parametre"><a href="">Parametres</a></li>
+	</ul>
+		
 
 </body>
 </html>

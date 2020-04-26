@@ -41,49 +41,91 @@ line-height: 60px;
 	}
 
 #connexion {
-	float: right;
-	display: inline-block;
-	margin-right: 20px;
-	padding-top: 0px;
-	padding-bottom: 0px;
-	padding-left: 12px;
-	padding-right:12px;
-	background-color: rgb(66, 133, 244);
+    float: right;
+    display: inline-block;
+    margin-right: 10px;
 	}
+	
+#boutonConnexion {
+  background-color: rgb(66, 133, 244);
+  color: white;
+  padding: 7px 12px 7px 12px;
+} 
 
 #gmail {
 	float: right;
 	display: inline-block;
 	margin-right: 20px;
 	}
-
+	
+.apps {
+	float: right;	
+	display: inline-block;
+	margin-right: 20px;
+	margin-top:7px;
+}
 
 .logo  {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 200px;
+	margin-top: 140px;
 }
+
+#placementB {
+	margin-left: 39%;
+	margin-right: auto;
+	margin-top: 35px;
+	display: inline-block;
+}
+
 
 .button  {
 
 	border-radius: 4px;
 	padding: 12px 28px;
-	display: block;
-	margin: auto;
+	margin: 4px 2px;
 	font-family: Arial;
-
+	background-color: #e7e7e7;
+	color: solid gray;
+	border: none;
+	font-size:15px;
+	
 }
 
 .texte {
+	
 	text-align: center;
-	display: inline-block;
+
 }
 
 .recherche {
-	margin-left: 520px;
+	margin-top: 50px;
+	margin-left: 33%;
 	margin-right: auto;
 	display: inline-block;
+	width: 34%;
+	box-sizing: border-box;
+	border: 1px solid gray;
+	border-radius: 20px;
+	background-color: white;
+	background-image: url("image/loupe.png");
+	background-position: 10px 10px;
+	background-repeat: no-repeat;
+	padding: 12px 40px 12px 40px;
+}
+
+.footer {
+	font-family: Arial;
+	display: inline-block;
+	text-decoration: none;
+	position:absolute; bottom:0;
+}
+
+#parametre {
+	float: right;
+	display: inline-block;
+
 }
 
 
